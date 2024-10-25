@@ -1,0 +1,7 @@
+# Requirements for running the project
+
+requests
+beautifulsoup4
+PyYAML
+openai
+httpx

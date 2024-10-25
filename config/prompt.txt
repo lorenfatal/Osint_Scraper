@@ -1,0 +1,8 @@
+Given the following text:
+
+{data}
+
+-- end of text
+
+# Please enter your prompt here
+# Make sure to include instructions to match the final desired structure of your json file. The fields specified in extracted_data in the main file.

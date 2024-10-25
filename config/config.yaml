@@ -1,0 +1,4 @@
+# Configuration file
+
+prompt_file: "config/prompt.txt"
+gpt_api_key_file: "config/gpt_api_key.txt"
