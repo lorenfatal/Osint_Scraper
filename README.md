@@ -1,5 +1,11 @@
 ## Web Scraper Project for Osint items generation
 
+## Table of Contents
+1. [Introduction](#Introduction)
+2. [Features](#Features)
+3. [Requirements](#Requirements)
+4. [Usage](#Usage)
+
 ## Introduction
 A modular web scraping project in Python designed to scrape data from multiple pre-defined websites using individual parsers for each site. 
 The project includes integration with OpenAI's GPT API to process scraped data into Osint items.
@@ -20,3 +26,12 @@ You can manage dependencies with pip.
 
 **API Keys / Credentials (as needed)**
 The integration with OpenAI's GPT requires API key. Make sure you have it beforehand.
+
+## Usage
+1. **Prompt** - Enter your prompt to the prompt.txt file in the config folder.
+2. **GPT API key** - Enter your GPT API key to the gpt_api_key.txt file in the config folder.
+3. **Urls** - Enter your Urls list to the urls.txt file.
+4. **Run the scraper** - Run the following command:
+```python
+python main.py
+```
